@@ -14,5 +14,7 @@ export const colors = {
     primary: "#43E8DE",
     secondary: "#000000",
     third: "#F0F0F0",
+    fourth: "#B068C9",
     while: "#ffffff"
+
 }

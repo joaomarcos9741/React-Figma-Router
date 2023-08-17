@@ -9,12 +9,14 @@ import logo from "../../assets/logo.png"
 export function Footer() {
     return (
       <S.Footer>
+        <div>
+          <a href="https://intagram.com" target="_blank">
+            <img src={instagram} alt="instagram" />
+          </a>
+          <img src={tiktok} alt="tiktok" />
+          <img src={twter} alt="twter" />
+        </div>
         <img src={logo} alt="logo" />
-        <a href="https://intagram.com" target="_blank">
-          <img src={instagram} alt="instagram" />
-        </a>
-        <img src={tiktok} alt="tiktok" />
-        <img src={twter} alt="twter" />
       </S.Footer>
     )
   }

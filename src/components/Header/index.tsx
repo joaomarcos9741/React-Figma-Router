@@ -4,8 +4,15 @@ import carrinho from "../../assets/carrinho.png"
 import { IPage } from "../../App"
 
 
-export function Header({ setPage }: IPage) {
-    return 
+export function Header() {
+  return (
+    <>
+      <S.Header>
+        <img src={lupa} alt="lupa" />
+        <img src={carrinho} alt="carrinho" />
+      </S.Header>
+    </>
+  )
 
-    
-  }
+
+}

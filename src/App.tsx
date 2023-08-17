@@ -1,3 +1,4 @@
+import { GlobalStyle } from "./styles/GlobalStyle"
 import{ComponentFooter, ComponentHeader} from "./components"
 import { PageHomes } from "./pages"
 
@@ -11,25 +12,16 @@ export interface IPage {
 
 
 function App() {
-  const [page, setPage] = useState(1)
-  let component
-  switch (page) {
-    case 1:
-      component = <PageHomes />
-      break;
-    case 2:
-      
-      break;
-    default:
-      component = <PageHomes />
-      break;
-  }
 
   return (
     <>
-      
-      
+      <ComponentHeader/>
+      <PageHomes/>
+      <ComponentFooter/>
+      <GlobalStyle/>
     </>
+    
+
   )
 }
 
