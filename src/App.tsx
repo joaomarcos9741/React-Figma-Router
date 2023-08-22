@@ -1,24 +1,22 @@
 import { GlobalStyle } from "./styles/GlobalStyle"
-import{ComponentFooter, ComponentHeader} from "./components"
-import { PageHomes } from "./pages"
+import { RouteSoftware } from "./routers"
+import { BrowserRouter } from "react-router-dom"
 
-
-import { useState, Dispatch, SetStateAction } from 'react'
-
-
-export interface IPage {
-  setPage: Dispatch<SetStateAction<number>>
-}
 
 
 function App() {
 
   return (
     <>
-      <ComponentHeader/>
-      <PageHomes/>
-      <ComponentFooter/>
+      
+
+      <BrowserRouter>
       <GlobalStyle/>
+      <RouteSoftware />
+      </BrowserRouter>
+     
+  
+     
     </>
     
 

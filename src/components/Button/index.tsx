@@ -10,7 +10,7 @@ export const Button = ({ Text } : IText) => {
         <>
         <S.Button>
             <h3>
-                <strong>{Text}</strong>
+                <a href="/biblioteca">{Text}</a>
             </h3>
         </S.Button>
         </>
