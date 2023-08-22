@@ -18,11 +18,13 @@ export const GlobalStyle = createGlobalStyle`
         border: 0;
         box-sizing: border-box;
     }
-    button {
-        cursor: pointer;
-    }
+
     body {
         background-color: ${colors.while};
+    }
+
+    ul li a{
+        
     }
 `
 
