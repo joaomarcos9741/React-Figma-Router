@@ -6,6 +6,7 @@ import logo from "../../assets/logo.png"
 
 
 
+
 export function Footer() {
     return (
       <S.Footer>
@@ -16,7 +17,8 @@ export function Footer() {
           <img src={tiktok} alt="tiktok" />
           <img src={twter} alt="twter" />
         </div>
-        <img src={logo} alt="logo" />
+
       </S.Footer>
+
     )
   }

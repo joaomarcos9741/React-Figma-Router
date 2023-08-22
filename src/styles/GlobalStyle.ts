@@ -5,6 +5,7 @@ export const colors = {
     secondary: "#000000",
     third: "#F0F0F0",
     fourth: "#B068C9",
+    black: "#000000",
     while: "#f0f0f0"
 
 }

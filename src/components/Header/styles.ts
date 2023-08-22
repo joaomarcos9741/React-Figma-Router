@@ -26,7 +26,6 @@ export const Header = styled.header`
     }
 
 
-`
 
-/*Botão Comprar */
+`
 
