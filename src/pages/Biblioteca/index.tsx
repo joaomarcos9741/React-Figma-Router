@@ -7,7 +7,9 @@ export function Biblioteca() {
   return (
     <>
       <S.Biblioteca>
-        <h1>Livros</h1>
+       <div>
+        <h1>Estante</h1>
+       </div>
 
         {article_json.map(card => (
 

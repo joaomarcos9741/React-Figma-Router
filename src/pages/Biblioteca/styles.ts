@@ -12,6 +12,12 @@ export const Biblioteca = styled.section`
     max-width: 50rem;
     justify-content:space-evenly;
     height:40rem;
+    div {
+        width: 100%;
+    }
+    h1 {
+        font-family: 'Tilt Prism', cursive;
+    }
     @media(max-width:1000px) {
         width:100%;
         min-height:100%;
