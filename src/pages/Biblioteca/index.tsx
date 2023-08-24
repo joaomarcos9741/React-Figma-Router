@@ -1,21 +1,23 @@
 
 import * as S from "./styles"
-import  Livro1 from "../../assets/Livro1.png"
-import Livro2 from "../../assets/Livro2.png"
-import Livro3 from "../../assets/Livro3.png"
-import  Livro4  from "../../assets/Livro.png"
+import { article_json } from "../../services/articles"
+import { ComponentArticle } from "../../components"
 
-
-export function Biblioteca(){
-  return(
+export function Biblioteca() {
+  return (
     <>
-          <img src={Livro1}/>
-          <img src={Livro2}/>
-          <img src={Livro3}/>
-          <img src={Livro4}/>
+      <S.Biblioteca>
+        <h1>Livros</h1>
 
+        {article_json.map(card => (
+
+          <ComponentArticle title={card.title} subtitle={card.subtitle} image_adress={card.image_adress} />
+        )
+
+)}
+      </S.Biblioteca>
     </>
-        
+
 
   )
 }
