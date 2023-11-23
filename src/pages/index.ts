@@ -1,4 +1,6 @@
 export{ Home as PageHomes } from "./Home"
 export { Biblioteca as PageBiblioteca} from "./Biblioteca"
 export { Layout as PageLayout } from "./Layout"
-
+export { Adm as PageAdm } from "./Adm"
+export { Cadastrar as PageCadastrar } from "./Cadastrar"
+export { Login as PageLogin } from "./Login"
