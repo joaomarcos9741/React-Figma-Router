@@ -6,7 +6,6 @@ import tiktok from "../../assets/tik tok.png"
 
 
 
-
 export function Footer() {
     return (
       <S.Footer>
