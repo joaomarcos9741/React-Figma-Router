@@ -54,7 +54,7 @@ export function Login() {
           />
         </div>
         <p>
-          Não possui conta? <Link to="/cadastrar">Cadastre-se</Link>
+          Não possui conta? <Link to="/cadastrar"><h2>Cadastre-se</h2></Link>
           <button type="submit">Entrar</button>
         </p>
       </form>

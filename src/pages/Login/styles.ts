@@ -13,4 +13,9 @@ export const Section = styled.section`
     margin-bottom: 2rem;
     font-size: 2rem;
   }
+  h2{
+    color: ${colors.black};
+    font-weight: 50rm;
+
+  }
 `
